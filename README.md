@@ -3,8 +3,8 @@ FiveM uses natives like `IsControlPressed`, but they take a lot performance, so 
 
 How to use the resource?
 ```lua
-AddEventHandler("keyup:Insert", function()
-  print("Insert key was pressed")
+AddEventHandler("keyup:KEYCODE", function()
+  print("KEYCODE was pressed")
 end)
 ```
 
